@@ -19,7 +19,7 @@ jobs:
           hugo-version: '0.111.3'  # You can update to latest version
 
       - name: Build the site
-        run: hugo --minify
+        run: hugo mod get && hugo --minify
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
