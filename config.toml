@@ -1,0 +1,8 @@
+baseURL = "https://yourusername.github.io/"
+title = "Kaoz Emporium Codex"
+theme = "geekdoc"
+defaultContentLanguage = "en"
+languageCode = "en-us"
+
+[params]
+  geekdocMenuBundle = "main"
